@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+   
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../images/pexels-cats-coming-1907227.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+
+
+nav ul li:hover{
+    transform: translateX(-10px);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13 px;
+}
+nav ul li a:active{
+    color: gold;
+}
+label{
+    color: white;
+   
+    font-size: 20px;
+   
+}
+input{
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 5px;
+    border:3px solid sandybrown;
+}
+
+.registerForm{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+input select{
+    border-radius: 3px;
+    text-align: center;
+    size: 15px;
+}
+#komuna{
+    border-radius: 3px;
+    text-align: center;
+    size: 15px;
+}
+#submit{
+    background-color: sandybrown;
+}
+.footer{
+    background: black;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    
+
+}
+.footer img{
+    width: 20px;
+    height: 20px;
+}
+
+#komuna{
+   background-color: black;
+   color: white;
+    border: 3px solid sandybrown;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.foto img{
+    height: 300px;width: 460px;
+}
+
+.foto{
+    display: flex;
+    flex-flow:row;
+    justify-content: space-evenly;
+
+}
